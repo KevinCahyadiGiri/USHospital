@@ -29,7 +29,8 @@ In US, hospitals have their grade every 6 months. The grade determined by scores
 We will need the following library to run the code in this project:
 
 - ##### TQDM
-Scraping takes a lot of time. In order to know whether our code is running or our computer has crashed, we will use TQDM. TQDM will show progress bar for a loop in our code, so we will know how far the loop has run. 
+Scraping takes a lot of time. In order to know whether our code is running or our computer has crashed, we will use TQDM. TQDM will show progress bar for a loop in our code, so we will know how far the loop has run.
+> pip install tqdm
 - ##### BeautifulSoup
 There are some tools in Python to help the user when scraping webiste. In this project, we will use Beautifulsoup because it is user friendly and easy to understand.
 - ##### Urllib
