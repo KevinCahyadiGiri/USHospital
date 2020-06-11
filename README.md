@@ -1,6 +1,6 @@
 ## US Hospital
 
-![acmh](/screenshot/ACMH.jpeg)
+![acmh](/screenshot/ACMH.jpg)
 US Hospital: ACMH
 source: http://www.cvexcel.org/AccreditedFacilitiesdetails.aspx?cid=f843fdaa-5592-405a-a569-71788cd564a9
 
@@ -71,9 +71,9 @@ Open Jupyter Notebook by open your terminal in your local directory and type: `j
 
 The scraped data will be saved in JSON. Below are the example of JSON structure used in this project.  
 
-{
-    "rs1": {
-        "Name": "ACMH Hospital",
+{ <br/>
+    "rs1": { <br/>
+        "Name": "ACMH Hospital", </br>
         "Address": "One Nolte Drive Kittanning, PA",
         "Grade Spring 2020": "c",
         "Grade Fall 2019": "c",
