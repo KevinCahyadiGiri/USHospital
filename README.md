@@ -31,16 +31,19 @@ In US, hospitals have their grade every 6 months. The grade determined by scores
 We will need the following library to run the code in this project:
 
 - ##### TQDM
-> pip install tqdm
-
+```
+pip install tqdm
+```
 Scraping takes a lot of time. In order to know whether our code is running or our computer has crashed, we will use TQDM. TQDM will show progress bar for a loop in our code, so we will know how far the loop has run.
 - ##### BeautifulSoup
-> pip install beautifulsoup4
-
+```
+pip install beautifulsoup4
+```
 There are some tools in Python to help the user when scraping webiste. In this project, we will use Beautifulsoup because it is user friendly and easy to understand.
 - ##### Urllib
-> pip install urllib3
-
+```
+pip install urllib3
+```
 We will use urllib library to grab the HTML of webistes.
 - ##### Time
 In this project, we will grab HTML from many websites. In order to not crashing the server, we will put our program to sleep in each loop using Sleep() from Time library. Time library is standard library in Python so it is already installed along with Python.
@@ -49,8 +52,9 @@ Scraped data will be stored in JSON format. To dump the data into json, we will 
 - ##### Threading
 Scraping takes a lot of time. In order to reduce the time taken in scraping, we can implement multithreading in our code. To implement multithreading, we need Threading library. Threading is also standard library in Python so it is already installed along with Python.
 - ##### Jupyter Notebook
-> pip install notebook
-
+```
+pip install notebook
+```
 The codes are in .ipynb. We can use Jupyter Notebook to open and run this code.
 
 ---
@@ -71,9 +75,10 @@ Open Jupyter Notebook by open your terminal in your local directory and type: `j
 
 The scraped data will be saved in JSON. Below are the example of JSON structure used in this project.  
 
-{ <br/>
-    "rs1": { <br/>
-        "Name": "ACMH Hospital", </br>
+<pre>
+{
+    "rs1": {
+        "Name": "ACMH Hospital",
         "Address": "One Nolte Drive Kittanning, PA",
         "Grade Spring 2020": "c",
         "Grade Fall 2019": "c",
@@ -112,6 +117,7 @@ The scraped data will be saved in JSON. Below are the example of JSON structure 
         "Doctor Nurse Staff Responsiveness of Hospital Staff": 85.0
     }
 }
+</pre>
 
 ---
 
