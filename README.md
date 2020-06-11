@@ -28,17 +28,17 @@ In US, hospitals have their grade every 6 months. The grade determined by scores
 
 We will need the following library to run the code in this project:
 
-- TQDM
+- ##### TQDM
 Scraping takes a lot of time. In order to know whether our code is running or our computer has crashed, we will use TQDM. TQDM will show progress bar for a loop in our code, so we will know how far the loop has run. 
-- BeautifulSoup
+- ##### BeautifulSoup
 There are some tools in Python to help the user when scraping webiste. In this project, we will use Beautifulsoup because it is user friendly and easy to understand.
-- Urllib
+- ##### Urllib
 We will use urllib library to grab the HTML of webistes.
-- Time
+- ##### Time
 In this project, we will grab HTML from many websites. In order to not crashing the server, we will put our program to sleep in each loop using Sleep() from Time library
-- JSON
+- ##### JSON
 Scraped data will be stored in JSON format. To dump the data into json, we will use JSON library.
-- Threading
+- ##### Threading
 Scraping takes a lot of time. In order to reduce the time taken in scraping, we can implement multithreading in our code. To implement multithreading, we need Threading library
-- Jupyter Notebook
+- ##### Jupyter Notebook
 The codes are in .ipynb. We can use Jupyter Notebook to open and run this code.
