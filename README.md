@@ -1,10 +1,9 @@
 ## US Hospital
 
 ![acmh](/screenshot/ACMH.jpg)
-US Hospital: ACMH
+US Hospital: ACMH <br/>
 source: http://www.cvexcel.org/AccreditedFacilitiesdetails.aspx?cid=f843fdaa-5592-405a-a569-71788cd564a9
 
----
 
 ### Table of Contents
 
@@ -18,13 +17,11 @@ This README.md contains the following:
 - [Reference](#reference)
 - [Author](#author)
 
----
 
 ## Description
 
 In US, hospitals have their grade every 6 months. The grade determined by scores in 5 aspects: Infections, Problem with Surgery, Practices to Prevent Error, Safety Problems, and Doctor, Nurse & Hospital Staff. This is a project to scrap grade information from US Hospital published in www.hospitalsafetygrade.org using Pyhton 3.   
 
----
 
 ## Specification
 
@@ -57,7 +54,6 @@ pip install notebook
 ```
 The codes are in .ipynb. We can use Jupyter Notebook to open and run this code.
 
----
 
 ## How to Use
 
@@ -69,7 +65,6 @@ Before we get started, make sure you have a stable internet connection to preven
 Open Jupyter Notebook by open your terminal in your local directory and type: `jupyter notebook`
 3. Run the code on Jupyter Notebok
 
----
 
 ## JSON Structure
 
@@ -119,7 +114,6 @@ The scraped data will be saved in JSON. Below are the example of JSON structure 
 }
 </pre>
 
----
 
 ## Screenshot
 
@@ -132,7 +126,6 @@ The scraped data will be saved in JSON. Below are the example of JSON structure 
 - ##### TQDM show progress bar
 ![scrapping-tqdm](/screenshot/scrapping-tqdm.png)
 
----
 
 ## Reference
 
@@ -146,7 +139,6 @@ For tutorial using BeautifulSoup.
 For the Scraped Webpage, the list of all US hospitals can be found here
 - https://www.hospitalsafetygrade.org/all-hospitals
 
----
 
 ## Author
 
