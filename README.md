@@ -1,6 +1,8 @@
 ## US Hospital
 
-![images here](images url)
+![acmh](/screenshot/ACMH.jpeg)
+US Hospital: ACMH
+source: http://www.cvexcel.org/AccreditedFacilitiesdetails.aspx?cid=f843fdaa-5592-405a-a569-71788cd564a9
 
 ---
 
@@ -67,13 +69,80 @@ Open Jupyter Notebook by open your terminal in your local directory and type: `j
 
 ## JSON Structure
 
-The scraped data will be saved in JSON. The JSON structure is :
+The scraped data will be saved in JSON. Below are the example of JSON structure used in this project.  
+
+{
+    "rs1": {
+        "Name": "ACMH Hospital",
+        "Address": "One Nolte Drive Kittanning, PA",
+        "Grade Spring 2020": "c",
+        "Grade Fall 2019": "c",
+        "Grade Spring 2019": "c",
+        "Grade Fall 2018": "c",
+        "Grade Spring 2018": "c",
+        "Grade Fall 2017": "c",
+        "Grade Spring 2017": "c",
+        "Infection MRSA": -1.0,
+        "Infection C Diff": 0.218,
+        "Infection in Blood": 0.0,
+        "Infection in Urinary Tract": 0.0,
+        "Infection after Colon Surgery": -1.0,
+        "Problem with Surgery Object Left in Patient Body": 0.0,
+        "Problem with Surgery Wound Open": 0.94,
+        "Problem with Surgery Complications": -1.0,
+        "Problem with Surgery Collapsed Lung": 0.26,
+        "Problem with Surgery Breathing Problem": 5.83,
+        "Problem with Surgery Blood Clot": 3.23,
+        "Problem with Surgery Accidental Cuts": 1.23,
+        "Practices to Prevent Errors Order Medications through Computer": 45.0,
+        "Practices to Prevent Errors Safe Medication Administration": 45.0,
+        "Practices to Prevent Errors Handwashing": -2.0,
+        "Practices to Prevent Errors Communication about Medicine": 76.0,
+        "Practices to Prevent Errors Communication about Discharge": 89.0,
+        "Practices to Prevent Errors Staff Work Together": -2.0,
+        "Safety Problems Bed Sores": 0.74,
+        "Safety Problems Patient Fals and Injuries": 1.067,
+        "Safety Problems Air on Gas Bubble in Blood": 0.0,
+        "Safety Problems Track and Reduce Risks": -2.0,
+        "Doctor Nurse Staff Leadership": -2.0,
+        "Doctor Nurse Staff Qualified Nurses": -2.0,
+        "Doctor Nurse Staff Trained Doctors for ICU Patients": 5.0,
+        "Doctor Nurse Staff Communication with Doctors": 91.0,
+        "Doctor Nurse Staff Communication with Nurses": 89.0,
+        "Doctor Nurse Staff Responsiveness of Hospital Staff": 85.0
+    }
+}
 
 ---
 
 ## Screenshot
 
+- ##### Normalization 
 ![normalization](/screenshot/normalization.png)
+
+- ##### Saving to JSON
 ![saving-to-json](/screenshot/saving-to-json.png)
+
+- ##### TQDM show progress bar
 ![scrapping-tqdm](/screenshot/scrapping-tqdm.png)
+
+---
+
+## Reference
+
+For dependency installation, we can look the detail here.
+- https://pypi.org/
+
+For tutorial using BeautifulSoup.
+- https://medium.com/@raiyanquaium/how-to-web-scrape-using-beautiful-soup-in-python-without-running-into-http-error-403-554875e5abed
+- https://www.youtube.com/watch?v=XQgXKtPSzUI
+
+For the Scraped Webpage, the list of all US hospitals can be found here
+- https://www.hospitalsafetygrade.org/all-hospitals
+
+---
+
+## Author
+
+
 
