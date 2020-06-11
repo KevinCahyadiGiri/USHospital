@@ -63,9 +63,15 @@ Before we get started, make sure you have a stable internet connection to preven
 Open Jupyter Notebook by open your terminal in your local directory and type: `jupyter notebook`
 3. Run the code on Jupyter Notebok
 
---
+---
 
 ## JSON Structure
 
 The scraped data will be saved in JSON. The JSON structure is :
+
+---
+
+## Screenshot
+
+![normalization](/screenshot/normalization.png)
 
