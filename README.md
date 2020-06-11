@@ -30,6 +30,7 @@ We will need the following library to run the code in this project:
 
 - ##### TQDM
 > pip install tqdm
+
 Scraping takes a lot of time. In order to know whether our code is running or our computer has crashed, we will use TQDM. TQDM will show progress bar for a loop in our code, so we will know how far the loop has run.
 - ##### BeautifulSoup
 > pip install beautifulsoup4
