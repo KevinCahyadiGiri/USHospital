@@ -74,4 +74,6 @@ The scraped data will be saved in JSON. The JSON structure is :
 ## Screenshot
 
 ![normalization](/screenshot/normalization.png)
+![saving-to-json](/screenshot/saving-to-json.png)
+![scrapping-tqdm](/screenshot/scrapping-tqdm.png)
 
