@@ -144,5 +144,7 @@ For the Scraped Webpage, the list of all US hospitals can be found here
 
 ## Author
 
+Nyoman Kevin Cahyadig Giri
+Information System and Technology (18218001)
 
 
